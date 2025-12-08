@@ -6,8 +6,7 @@
 CSCI310 Graph Examples 2025 documentation
 =========================================
 
-CHANGE THE NAME OF THE MODULE hello BELOW AFTER YOU CHANGE THE NAME OF hello.py TO MATCH YOUR PROJECT!
-Then you can change these documentation lines
+These are examples from the Runestone book on Data Structures.
 
 .. automodule:: graphs1
    :members:
