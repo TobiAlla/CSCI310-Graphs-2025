@@ -100,6 +100,12 @@ class Graph:
                 # retStr += "( %s , %s )\n" % (v.getId(), w.getId())
         return retStr
 
+    def edgeCount(self):
+        count = 0
+        for v in self:
+            count += len(v.getConnections())
+        return count
+
 if __name__ == '__main__':
     """Runs if file called as script as opposed to being imported as a library
 
@@ -133,3 +139,6 @@ if __name__ == '__main__':
             print("( %s , %s )" % (v.getId(), w.getId()))
     print('*'*20)
     print(g)
+
+    print(f"Number of edges:  {g.edgeCount()}")
+    
